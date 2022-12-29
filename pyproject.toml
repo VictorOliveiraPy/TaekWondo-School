@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taekwondo-school"
+version = "0.1.0"
+description = ""
+authors = ["victor.oliveira <victor.oliveira@willbank.com.br>"]
+readme = "README.md"
+packages = [{include = "taekwondo_school"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^1.4.45"
+alembic = "^1.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
