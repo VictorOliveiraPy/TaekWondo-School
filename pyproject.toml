@@ -10,6 +10,7 @@ packages = [{include = "taekwondo_school"}]
 python = "^3.10"
 sqlalchemy = "^1.4.45"
 alembic = "^1.9.1"
+psycopg2-binary = "^2.9.5"
 
 
 [build-system]
